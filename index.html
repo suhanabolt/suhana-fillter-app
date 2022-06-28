@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  
+  <title>snapshot*</title>
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+  body{
+  text-align:center;
+  background-image:url("https://i.pinimg.com/736x/ad/7c/f9/ad7cf9e8e7edd726aa56d5a489245da3.jpg");
+  background-position:center ;
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+  }
+  </style>
+</head>
+
+<body>
+<div class="container">
+	<h3 class="btn btn-primary">Introduction to p5.js</h3>
+	<hr>
+  <label>Filter color </label>
+  <input id="color_name" placeholder="enter the filter color">
+  <br>
+  <br>
+<button onclick="filter_tint()" class="btn btn-info">FILTER APPLY</button>
+  <button onclick="take_snapshot()" class="btn btn-success">Take Snapshot</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
